@@ -52,7 +52,7 @@ SPA.defineView('home',{
 
     				setTimeout(function(){
 	    				self.myScroll.refresh();
-						//self.myScroll.scrollBy(0,-35);
+						self.myScroll.scrollBy(0,-35);
 	    			},200)
     			},
     			
