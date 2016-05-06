@@ -1,0 +1,23 @@
+@import "../../lib/element/yo-btn.scss";
+
+div#forget{
+	@include flexbox(flex);
+	@include flex-direction(column);
+	@include align-items(center);
+	@include box-sizing(border-box);
+	padding:0.1rem 0 0.2rem;
+	b{
+		line-height:0.32rem;
+		color:#090909;
+		display:block;
+		a{
+			color:#0000ff;
+		}
+	}
+	@include yo-btn(
+			$width:0.7rem,
+			$height:0.3rem,
+			$bgcolor:#ff6565,
+			$border-width:0
+		)
+}

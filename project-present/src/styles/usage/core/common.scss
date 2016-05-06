@@ -1,0 +1,17 @@
+$font-heiti-light: Heiti SC Light, Helvetica Neue, Helvetica, STHeiTi, sans-serif;
+$font-heiti-medium: Heiti SC Medium, Heiti SC Light, Helvetica Neue, Helvetica, STHeiTi, sans-serif;
+
+@font-face {
+  font-family: yofont;
+  src: url("http://simg1.qunarzz.com/fonts/delete/0.0.1/iconfont.woff") format("woff"), url("http://simg1.qunarzz.com/fonts/delete/0.0.1/iconfont.ttf") format("truetype");
+}
+
+[qapp-widget="scroll"] {
+	@include flex(1);
+	width: 100%;
+}
+
+body {
+	background-color: #fff !important;
+}
+

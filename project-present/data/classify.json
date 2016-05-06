@@ -1,0 +1,30 @@
+{
+	"ret":true,
+	"errorCode":0,
+	"errorMsg":"",
+	"data":[{
+		"img":"/project-present/images/img/object_icon_self.png",
+		"title":"自己"
+		},{
+			"img":"/project-present/images/img/object_icon_bf.png",
+			"title":"男朋友"
+		},{
+			"img":"/project-present/images/img/object_icon_gf.png",
+			"title":"女朋友"
+		},{
+			"img":"/project-present/images/img/object_icon_friend.png",
+			"title":"好闺蜜"
+		},{
+			"img":"/project-present/images/img/object_icon_mfriend.png",
+			"title":"好基友"
+		},{
+			"img":"/project-present/images/img/object_icon_parent.png",
+			"title":"爸爸妈妈"
+		},{
+			"img":"/project-present/images/img/object_icon_child.png",
+			"title":"小朋友"
+		},{
+			"img":"/project-present/images/img/object_icon_company.png",
+			"title":"同事"
+		}]
+}

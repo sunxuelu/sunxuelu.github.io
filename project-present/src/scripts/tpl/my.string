@@ -1,0 +1,36 @@
+<section id="my">
+	<div class="my-head">
+		<img src="/project-present/images/img/my-bj.png"/>
+		<dl action-type="my.signin">
+			<dd>
+				<img src="/project-present/images/img/my.png">
+			</dd>
+			<dt><b>登录</b></dt>
+		</dl>
+		<span action-type="tap.set">&#xe660;</span>
+	</div>
+	<ul id="like">
+		<li class="active" action-type="my.switch">喜欢的攻略</li>
+		<li action-type="my.switch">喜欢的礼物</li>
+	</ul>
+	<div class="swiper-container" id="my-content">
+	    <div class="swiper-wrapper" id="my-wrapper">
+	        <div class="swiper-slide">
+	        	<p>
+					<b>
+						<img src="/project-present/images/img/my-zan.png">
+					</b>
+					<i>您还没有赞过任何攻略哦~</i>
+				</p>
+	        </div>
+	        <div class="swiper-slide">
+	        	<p>
+					<b>
+						<img src="/project-present/images/img/my-zan.png">
+					</b>
+					<i>您还没有赞过任何礼物哦~</i>
+				</p>
+	        </div>
+	    </div>
+	</div>
+</section>

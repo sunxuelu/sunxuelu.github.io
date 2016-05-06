@@ -1,0 +1,67 @@
+section#classify{
+	@include flex(1);
+	width:100%;
+	background: #f3f4f6;
+	overflow: hidden;
+	>div{
+		width:100%;
+		.main{
+			@include box-sizing(border-box);
+			padding:0 0.1rem;
+			h3{
+				@include box-sizing(border-box);
+				padding-top:0.05rem;
+				height:0.46rem;
+				line-height: 0.46rem;
+				font-size: 0.18rem;
+				color:#2a2b2d
+			}
+			div{
+				@include box-sizing(border-box);
+				@include border(1px,#dedede)
+				ul{
+					width:100%;
+					background:#fff;
+					@include flexbox(flex);
+					li{
+						@include flex(1);
+						background: url("/project-present/images/img/border3.jpg") no-repeat right center;
+						background-size: 1px 70%;
+						&:nth-child(2n){
+							background: none
+						}
+						span{
+							display: block;
+						    width: 100%;
+						    padding: 0 0.15rem;
+						    @include box-sizing(border-box);
+						    font-size: 0.15rem;
+						    color: #555;
+						    b{
+						    	display: block;
+							    width: 100%;
+							    @include box-sizing(border-box);
+							    border-bottom: #dedede 1px solid;
+							    padding: 0.8em 0.04rem;
+							    img{
+							    	width:30%;
+							    }
+							    i{
+							    	@include box-sizing(border-box);
+							    	padding-left:0.05rem;
+							    }
+						    }
+						}
+					}
+					&:last-child{
+						b{
+							border-bottom: none;
+						}
+					}
+				}
+
+			}
+			
+		}
+	}
+}

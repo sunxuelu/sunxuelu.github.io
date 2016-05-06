@@ -1,0 +1,94 @@
+section#home{
+	@include flex(1);
+	width:100%;
+	overflow: hidden;
+	>div{
+		// @include flex(1);
+		width:100%;
+		height:100%;
+		@include flexbox(flex);
+		@include flex-direction(column);
+		
+		#index-swiper{
+			width:100%;
+			height:1.47rem;
+			@include flexbox(flex);
+			@include box-sizing(border-box);
+			@include border(1px 0 0 0,#e3b8b2);
+			.swiper-pagination{
+				bottom:0;
+				.swiper-pagination-bullet{
+					background: #cfcdc4;
+					opacity:1;
+				}
+				.swiper-pagination-bullet-active{
+						background: #fff;
+				}
+			}
+			img{
+				width:100%;
+				height:100%;
+			}
+		}
+		.index-scroll{
+			@include flex(1);
+			width:100%;
+			@include flexbox(flex);
+			background: #f5f7f6;
+			@include flex-direction(column);
+			@include box-sizing(border-box);
+			padding:0 0.05rem;
+			div{ 
+				@include flexbox(flex);
+				@include flex(1);
+				width:100%;
+				@include box-sizing(border-box);
+				padding-top:0.08rem;
+				position:relative;
+				img{
+					width:100%;
+					border-radius:0.05rem;
+				}
+				h3{ 
+					width:100%;
+					padding:0.06rem 0.11rem 0.05rem;
+					@include box-sizing(border-box);
+					border-radius: 0.05rem;
+					position: absolute;
+					bottom:0;
+					left:0;
+					@include gradient(linear,rgba(219,219,219,.12),rgba(0,0,0,.6));
+					color:#fff;
+					font-weight:400;
+					font-size:16px;
+				}
+				span{
+					display: block;
+					position: absolute;
+					right:0.1rem;
+					top:0.18rem;
+					@include box-sizing(border-box);
+					@include flexbox(flex);
+					@include align-items(center);
+					padding:0.03rem 0.06rem;
+					border-radius: 0.05rem;
+					background:rgba(0,0,0,0.25);
+					color:#fff;
+					font-size:10px;
+					i{
+						font-family: yofont;
+						font-size:15px;
+						@include box-sizing(border-box);
+						padding:0.01rem 0.02rem 0 0;
+						color:#fff;
+						&:active{
+							color:red
+						}
+					}
+
+				}
+			}
+		}
+	}
+	
+}

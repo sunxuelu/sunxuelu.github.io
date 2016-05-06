@@ -1,0 +1,58 @@
+@import "../../lib/widget/yo-switch.scss";
+section#set{
+	@include flex(1);
+	width:100%;
+	background:#efeff4;
+	ul{
+		@include box-sizing(border-box);
+		padding-top:0.21rem;
+		li{
+			@include flexbox(flex);
+			height: 0.45rem;
+			@include box-sizing(border-box);
+			@include align-items(center);
+			border-bottom:1px solid #e6e6e6;
+			background: #fff;
+			padding:0 0.18rem;
+			position:relative;
+			i,b{
+				font-family: yofont;
+			}
+			i{
+				font-size:22px;
+				color:#ff9191;
+			}
+			em{
+				@include box-sizing(border-box);
+				padding-left:0.21rem;
+				color:#4b4b4b;
+				font-size:14px;
+			}
+			b{
+				color:#babac0;
+				font-size:14px;
+			}
+			label,b{
+				position: absolute;
+				right:0.16rem;
+				top:50%;
+				@include transform(translateY(-50%));
+			}
+			@include yo-switch(
+			    $name: test,
+			    $checked-bgcolor: #ff6565,
+			    $checked-bordercolor: #ff6565,
+			    $bgcolor: #fff
+			) {
+				.track{
+					width:0.4rem;
+					height:0.19rem;
+					.handle{
+						width:0.19rem;
+						height:0.19rem;
+					}
+				}
+			}
+		}
+	}
+}

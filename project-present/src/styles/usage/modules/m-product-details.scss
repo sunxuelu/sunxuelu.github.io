@@ -1,0 +1,48 @@
+.share{
+	font-size:0.2rem;
+}
+nav{
+	height:0.57rem;
+	@include flexbox(flex);
+	ul{
+		width:100%;
+		height:100%;
+		@include flexbox(flex);
+		li{
+			@include flex(1);
+			width:100%;
+			height:100%;
+			@include flexbox(flex);
+			@include justify-content(center);
+			@include align-items(center);
+			color:#939393;
+			font-size:0.16rem;
+			background: url("/project-present/images/img/border1.jpg") no-repeat right center;
+			&:last-child{
+				background: none;
+			}
+			&.active{
+				@include box-sizing(border-box);
+				border-top: 0.03rem solid #b50009;
+			}
+		}
+	}
+}
+section#product-content{
+	@include flex(1);
+	width:100%;
+}
+
+footer#product{
+	height:0.44rem;
+	width:100%;
+	background: red;
+	ul{
+		@include flexbox(flex);
+		height:100%;
+		width:100%;
+		li{
+		
+		}
+	}
+}

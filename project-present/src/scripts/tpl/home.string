@@ -1,0 +1,39 @@
+<header>
+	送个礼物
+</header>
+<section id="home">
+	<div>
+		<div class="head">
+            <img src="/project-present/images/img/arrow.png"/>
+            <span>下拉刷新...</span>
+        </div>
+		<div class="swiper-container" id="index-swiper">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide">
+	            	<img src="/project-present/images/img/index-slide1.png" action-type="home.newyear">
+	            </div>
+	            <div class="swiper-slide">
+	            	<img src="/project-present/images/img/index-slide2.png">
+	            </div>
+	            <div class="swiper-slide">
+	            	<img src="/project-present/images/img/index-slide3.png">
+	            </div>
+	            <div class="swiper-slide">
+	            	<img src="/project-present/images/img/index-slide4.png">
+	            </div>
+	        </div>
+	        <div class="swiper-pagination"></div>
+	    </div>
+	    <div class="index-scroll" ms-repeat="homelist">
+	    	<div action-type="tap.details">
+	    		<b><img ms-src="el.img"></b>
+	    		<h3 ms-text="el.h3"></h3>
+	    		<span ms-html="el.span"></span>
+	    	</div>
+	    </div>
+	    <div class="foot">
+            <img src="/project-present/images/img/arrow.png"/>
+            <span>上拉加载更多...</span>
+        </div>
+	</div>
+</section>

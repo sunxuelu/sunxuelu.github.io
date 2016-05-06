@@ -1,0 +1,57 @@
+<header>
+	<i action-type="tap.back">&#xf0292;</i>
+	<span>登录</span>
+	<em action-type="tap.register">注册</em>
+</header>
+<section id="signin">
+	<!-- <div class="yo-input yo-input-a">
+		<label class="item item-input">
+		    <span class="mark">&#xe694;</span>
+		    <input type="text" class="yo-input flex"  placeholder="请输入用户名" />
+		</label>
+		<label class="item item-input">
+		    <span class="mark">&#xe609;</span>
+		    <input type="text" class="yo-input flex" placeholder="请输入密码" />
+		</label>
+		<p class="signin1">
+			<span action-type="tap.signin">登录</span>
+		</p>
+		<div class="free">
+			<i action-type="tap.register">立即免费注册</i>
+			<i action-type="tap.forget">忘记密码</i>
+		</div>
+		<div class="method">
+			<p><i>&#xe675;</i><em>选择登录方式</em><i>&#xe675;</i></p>
+			<ul>
+				<li><img src="/project-present/images/img/qq.png"></li>
+				<li><img src="/project-present/images/img/weixin.png"></li>
+				<li><img src="/project-present/images/img/sina.png"></li>
+			</ul>
+		</div>
+	</div> -->
+	<div>
+		<form>
+			<label>
+				<span>&#xe694;</span>
+				<input type="text" placeholder="请输入用户名"/>
+			</label>
+			<label>
+				<span>&#xe609;</span>
+				<input type="text" placeholder="请输入密码"/>
+			</label>
+		</form>
+		<p class="btn-sign"><em>登录</em></p>
+		<div class="free">
+			<i action-type="tap.register">立即免费注册</i>
+			<i action-type="tap.forget">忘记密码</i>
+		</div>
+		<div class="method">
+			<p><i>&#xe675;</i><b>选择登录方式</b><i>&#xe675;</i></p>
+			<ul>
+				<li><img src="/project-present/images/img/qq.png"></li>
+				<li><img src="/project-present/images/img/weixin.png"></li>
+				<li><img src="/project-present/images/img/sina.png"></li>
+			</ul>
+		</div>	
+	</div>
+</section>

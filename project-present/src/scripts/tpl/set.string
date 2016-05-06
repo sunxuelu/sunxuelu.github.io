@@ -1,0 +1,47 @@
+<header>
+	<i action-type="set.back">&#xf0292;</i>
+	<span>设置</span>
+</header>
+<section id="set">
+	<ul>
+		<li action-type="set.share">
+			<i>&#xe60b;</i>
+			<em>给好友推荐送个礼物</em>
+			<b>&#xe613;</b>
+		</li>
+		<li>
+			<i>&#xe602;</i>
+			<em>给我们评分吧</em>
+			<b>&#xe613;</b>
+		</li>
+		<li>
+			<i>&#xeae8;</i>
+			<em>意见反馈</em>
+			<b>&#xe613;</b>
+		</li>
+	</ul>
+	<ul>
+		<li>
+			<i>&#xe632;</i>
+			<em>接收消息提醒</em>
+			<label class="yo-switch yo-switch-test">
+			    <input type="checkbox" />
+			    <div class="track">
+			        <span class="handle"></span>
+			    </div>
+			</label>
+		</li>
+		<li>
+			<i>&#xe684;</i>
+			<em>清理缓存</em>
+			<b>&#xe613;</b>
+		</li>
+	</ul>
+	<ul>
+		<li>
+			<i>&#xe6f6;</i>
+			<em>关于这个礼物</em>
+			<b>&#xe613;</b>
+		</li>
+	</ul>
+</section>

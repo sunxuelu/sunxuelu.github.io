@@ -1,0 +1,23 @@
+<header>
+	<i action-type="register.back">&#xf0292;</i>
+	<span>注册新用户</span>
+</header>
+<section id="register">
+	<div>
+		<form>
+			<label>
+				<span>&#xe694;</span>
+				<input type="text" placeholder="请输入用户名"/>
+			</label>
+			<label>
+				<span>&#xe609;</span>
+				<input type="text" placeholder="请输入密码"/>
+			</label>
+			<label>
+				<span>&#xe609;</span>
+				<input type="text" placeholder="请再次输入密码"/>
+			</label>
+		</form>
+		<p><em>注册并登录</em><p>
+	</div>
+</section>

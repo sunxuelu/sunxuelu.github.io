@@ -1,0 +1,182 @@
+<header>
+	分类
+</header>
+<section id="classify" spa-widget="scroll">
+	<div>
+		<div class="main" >
+			<h3>送礼对象</h3>
+			<div ms-each="classifylist1">
+				<ul >
+					<li>
+						<span>
+							<b>
+								<img ms-src="el[0].img">
+								<i ms-text="el[0].title"></i>
+							</b>
+						</span>
+					</li>
+					<li>
+						<span>
+							<b>
+								<img ms-src="el[1].img">
+								<i ms-text="el[1].title"></i>
+							</b>
+						</span>
+					</li>
+				</ul>
+			</div>
+			<h3>送礼场合</h3>
+			<div ms-each="classifylist2">
+				<ul >
+					<li>
+						<span>
+							<b>
+								<img ms-src="el[0].img">
+								<i ms-text="el[0].title"></i>
+							</b>
+						</span>
+					</li>
+					<li>
+						<span>
+							<b>
+								<img ms-src="el[1].img">
+								<i ms-text="el[1].title"></i>
+							</b>
+						</span>
+					</li>
+				</ul>
+			</div>
+				<!-- <ul>
+					<li>
+						<span>
+							<b>
+								<img src="/project-present/images/img/object_icon_gf.png">
+								<i>self</i>
+							</b>
+						</span>
+					</li>
+					<li>
+						<span>
+							<b>
+								<img src="/project-present/images/img/object_icon_friend.png">
+								<i>self</i>
+							</b>
+						</span>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<span>
+							<b>
+								<img src="/project-present/images/img/object_icon_mfriend.png">
+								<i>self</i>
+							</b>
+						</span>
+					</li>
+					<li>
+						<span>
+							<b>
+								<img src="/project-present/images/img/object_icon_parent.png">
+								<i>self</i>
+							</b>
+						</span>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<span>
+							<b>
+								<img src="/project-present/images/img/object_icon_child.png">
+								<i>self</i>
+							</b>
+						</span>
+					</li>
+					<li>
+						<span>
+							<b>
+								<img src="/project-present/images/img/object_icon_company.png">
+								<i>self</i>
+							</b>
+						</span>
+					</li>
+				</ul>
+			</div>
+			<h3>object</h3>
+			<div>
+				<ul>
+					<li>
+						<span>
+							<b>
+								<img src="/project-present/images/img/occasion_icon_newyear.png">
+								<i>self</i>
+							</b>
+						</span>
+					</li>
+					<li>
+						<span>
+							<b>
+								<img src="/project-present/images/img/occasion_icon_birthday.png">
+								<i>self</i>
+							</b>
+						</span>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<span>
+							<b>
+								<img src="/project-present/images/img/occasion_icon_memory.png">
+								<i>self</i>
+							</b>
+						</span>
+					</li>
+					<li>
+						<span>
+							<b>
+								<img src="/project-present/images/img/occasion_icon_merry.png">
+								<i>self</i>
+							</b>
+						</span>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<span>
+							<b>
+								<img src="/project-present/images/img/occasion_icon_thanks.png">
+								<i>self</i>
+							</b>
+						</span>
+					</li>
+					<li>
+						<span>
+							<b>
+								<img src="/project-present/images/img/occasion_icon_loveday.png">
+								<i>self</i>
+							</b>
+						</span>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<span>
+							<b>
+								<img src="/project-present/images/img/occasion_icon_carry.png">
+								<i>self</i>
+							</b>
+						</span>
+					</li>
+					<li>
+						<span>
+							<b>
+								<img src="/project-present/images/img/occasion_icon_carry.png">
+								<i>self</i>
+							</b>
+						</span>
+					</li>
+				</ul>
+			</div> -->
+			
+		</div>
+	</div>
+</section>

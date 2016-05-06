@@ -1,0 +1,54 @@
+
+section#register{
+	@include flex(1);
+	width:100%;
+	background: #f6f6f6;
+	div{
+		width: 100%;
+		@include box-sizing(border-box);
+		padding:0 0.15rem;
+		form{
+			label{
+				width:100%;
+				display: block;
+				height:0.55rem;
+				@include box-sizing(border-box);
+				border-bottom:1px solid #bebebe;
+				position: relative;
+				span,input{
+					position:absolute;
+					
+				}
+				input{	
+					border:none;	
+					background: none;
+					left:0.4rem;
+					top:0.28rem;
+					color:#c1c1c7;
+					font-size: 15px;
+				}
+				span{
+					font-family: yofont;
+					font-size:20px;
+					left:0.05rem;
+					top:0.24rem;
+					color:#666666;
+				}
+			}		
+		}
+		p{
+			@include box-sizing(border-box);
+			padding-top:0.25rem;
+			em{
+				@include flexbox(flex);
+				text-align: center;
+				line-height: 0.4rem;
+				display:block;
+				height:0.4rem;
+				background:#ff6565;
+				color:#fff;
+			}	
+		}
+		
+	}
+}

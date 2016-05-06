@@ -1,0 +1,5 @@
+<div id="forget">
+	<b>请联系客服取回密码</b>
+	<b>客服QQ：<a href="###">198227133</a></b>
+	<button class="yo-btn" action-type="forget.sure">确定</button>
+</div>

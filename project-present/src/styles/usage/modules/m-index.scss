@@ -1,0 +1,61 @@
+@font-face {
+  font-family: yofont;
+  src: url("/project-present/images/icofont/iconfont.woff") format("woff"), url("/project-present/images/icofont/iconfont.ttf") format("truetype");
+}
+@font-face {
+  font-family: yofont;
+  src: url("/project-present/images/icofont/iconfont1.woff") format("woff"), url("/project-present/images/icofont/iconfont1.ttf") format("truetype");
+}
+.m-index{
+	width:100%;
+	height:100%;
+	@include flexbox(flex);
+	@include flex-direction(column);
+
+	.l-index-content{
+		@include flexbox(flex);
+		@include flex(1);
+		width:100%;
+		position:relative;
+	}
+
+	footer{
+		width:100%;
+		height:0.44rem;
+		background:#fcfcfc;
+		@include box-sizing(border-box);
+		@include border(1px 0 0 0,#e6e6e6);
+		ul{
+			width:100%;
+			height:100%;
+			@include flexbox(flex);
+			li{
+				font-family:yofont;
+				@include flex(1);
+				@include flexbox(flex);
+				@include flex-direction(column);
+				@include box-sizing(border-box);
+				@include align-items(center);
+				color:#9a9a9a;
+				&.active{
+					color:#f17985;
+				}
+
+				i,b{
+					display: block;		
+				}
+				i{
+					font-size:0.2rem;
+					height: 0.26rem;
+					line-height:0.26rem;	
+				}
+				b{
+					font-size: 0.1rem;
+					height:0.18rem;
+					font-weight: normal;
+				}
+			}
+		}
+	}
+
+}

@@ -1,0 +1,30 @@
+<header>
+	<i action-type="newyear.back">&#xf0292;</i>
+	<span>新年</span>
+</header>
+<section id="newyear" spa-widget="scroll">
+	<div>
+		<div>
+	    	<b><img src="/project-present/images/img/newyear1.jpg"></b>
+	    	<h3>「初心」木作是场文艺大片~</h3>
+	    	<span><i>&#xe62f;</i>1006</span>
+	    	<em><img src="/project-present/images/img/new.png"></em>
+	    </div>
+	    <div>
+	    	<b><img src="/project-present/images/img/newyear2.jpg"></b>
+	    	<h3>「初心」木作是场文艺大片~</h3>
+	    	<span><i>&#xe62f;</i>1584</span>
+	    </div>
+	    <div>
+	    	<b><img src="/project-present/images/img/newyear3.jpg"></b>
+	    	<h3>「初心」木作是场文艺大片~</h3>
+	    	<span><i>&#xe62f;</i>1238</span>
+	    	<em><img src="/project-present/images/img/new.png"></em>
+	    </div>
+	    <div>
+	    	<b><img src="/project-present/images/img/newyear4.jpg"></b>
+	    	<h3>「初心」木作是场文艺大片~</h3>
+	    	<span><i>&#xe62f;</i>1574</span>
+	    </div>
+	</div>
+</section>

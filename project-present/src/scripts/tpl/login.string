@@ -1,0 +1,17 @@
+<section id="login">
+	<div class="header">
+		<i action-type="login.error">&#xe614;</i>
+		<b action-type="login.open">注册/登录</b>
+	</div>
+	<div class="logo">
+		<img src="/project-present/images/img/logo.png"/>
+	</div>
+	<div class="method">
+		<p><i>&#xe675;</i><em>选择登录方式</em><i>&#xe675;</i></p>
+		<ul>
+			<li><img src="/project-present/images/img/qq.png"></li>
+			<li><img src="/project-present/images/img/weixin.png"></li>
+			<li><img src="/project-present/images/img/sina.png"></li>
+		</ul>
+	</div>
+</section>

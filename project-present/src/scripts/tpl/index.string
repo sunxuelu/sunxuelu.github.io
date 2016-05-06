@@ -1,0 +1,26 @@
+<div class="m-index">
+	<div class="l-index-content">
+		
+	</div>
+	<footer>
+		<ul>
+			<li class="active" action-type="tap-switch" data-tag="home">
+				<i>&#xe61a;</i>
+				<b>首页</b>
+			</li>
+			<li action-type="tap-switch" data-tag="good">
+				<i>&#xe638;</i>
+				<b>好物</b>
+			</li>
+			<li action-type="tap-switch" data-tag="classify">
+				<i>&#xe657;</i>
+				<b>分类</b>
+			</li>
+			<li action-type="tap-switch" data-tag="my">
+				<i>&#xe618;</i>
+				<b>我的</b>
+			</li>
+		</ul>
+	</footer>
+
+</div>

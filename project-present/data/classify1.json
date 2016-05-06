@@ -1,0 +1,30 @@
+{
+	"ret":true,
+	"errorCode":0,
+	"errorMsg":"",
+	"data":[{
+		"img":"/project-present/images/img/occasion_icon_newyear.png",
+		"title":"新年"
+		},{
+			"img":"/project-present/images/img/occasion_icon_birthday.png",
+			"title":"生日"
+		},{
+			"img":"/project-present/images/img/occasion_icon_memory.png",
+			"title":"纪念日"
+		},{
+			"img":"/project-present/images/img/occasion_icon_merry.png",
+			"title":"结婚"
+		},{
+			"img":"/project-present/images/img/occasion_icon_thanks.png",
+			"title":"感谢"
+		},{
+			"img":"/project-present/images/img/occasion_icon_loveday.png",
+			"title":"情人节"
+		},{
+			"img":"/project-present/images/img/occasion_icon_carry.png",
+			"title":"乔迁"
+		},{
+			"img":"/project-present/images/img/occasion_icon_chris.png",
+			"title":"圣诞节"
+		}]
+}

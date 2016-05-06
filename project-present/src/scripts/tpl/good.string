@@ -1,0 +1,51 @@
+<header>
+	好物
+</header>
+<section id="good">
+	<div>
+		<div class="head">
+            <img src="/project-present/images/img/arrow.png"/>
+            <span>下拉刷新...</span>
+        </div>
+		<div class="goods-item" ms-repeat="goodlist">
+			<ul>
+				<li action-type="tap.product">
+					<div>
+						<img ms-src="el[0].img">
+						<span ms-html="el[0].mountain"></span>
+						<b ms-html="el[0].xin"></b>
+					</div>	
+					<h3 ms-html="el[0].title">	
+					</h3>
+					<p>
+						<b ms-html="el[0].price"></b>
+						<span>
+							<i ms-html="el[0].car"></i>
+							<b ms-html="el[0].cat"></b>
+						</span>
+					</p>
+				</li>
+				<li></li>
+				<li action-type="tap.product" ms-class-active="!el[1]">
+					<div>
+						<img ms-src="el[1].img">
+						<span ms-html="el[1].mountain"></span>
+						<b ms-html="el[1].xin"></b>
+					</div>	
+					<h3 ms-html="el[1].title">	
+					</h3>
+					<p ms-class-bg="!el[1]">
+						<b ms-html="el[1].price"></b>
+						<span>
+							<i ms-html="el[1].car"></i>
+							<b ms-html="el[1].cat"></b>
+						</span>
+					</p>
+			</ul>
+		</div>
+		<div class="foot">
+            <img src="/project-present/images/img/arrow.png"/>
+            <span>上拉加载更多...</span>
+        </div>
+	</div>
+</section>

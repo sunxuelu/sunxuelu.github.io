@@ -1,0 +1,103 @@
+
+section#signin{
+	@include flex(1);
+	width:100%;
+	background: #f6f6f6;
+	padding:0 0.15rem;
+	@include box-sizing(border-box);
+	div{
+		width: 100%;
+		form{
+			label{
+				width:100%;
+				display: block;
+				height:0.55rem;
+				@include box-sizing(border-box);
+				border-bottom:1px solid #bebebe;
+				position: relative;
+				span,input{
+					position:absolute;
+					
+				}
+				input{	
+					border:none;	
+					background: none;
+					left:0.4rem;
+					top:0.28rem;
+					color:#c1c1c7;
+					font-size: 15px;
+				}
+				span{
+					font-family: yofont;
+					font-size:20px;
+					left:0.05rem;
+					top:0.24rem;
+					color:#666666;
+				}
+			}		
+		}
+		.btn-sign{
+			@include box-sizing(border-box);
+			padding-top:0.25rem;
+			em{
+				@include flexbox(flex);
+				text-align: center;
+				line-height: 0.4rem;
+				display:block;
+				height:0.4rem;
+				background:#ff6565;
+				color:#fff;
+			}	
+		}
+		.free{
+			width:100%;
+			@include flexbox(flex);
+			@include box-sizing(border-box);
+			padding-top:0.18rem;
+			@include justify-content(space-between);
+			font-size:14px;
+			color:#808080;
+			i{
+				display: block;
+			}
+		}	
+		.method{
+			width:100%;
+			font-size:15px;
+			padding-top:0.2rem;
+			p{
+				@include flexbox(flex);
+				@include justify-content(center);
+				@include align-items(center);
+				color:#ff6565;
+				height: 0.75rem;
+				i,b{
+					display: block;
+					@include box-sizing(border-box);
+				}
+				i{
+					font-family: yofont;
+					font-size:50px;
+					padding:0 0.12rem;
+				}
+				b{
+					padding-top: 0.1rem;
+					font-weight:normal;
+				}
+			}
+			ul{
+				@include flexbox(flex);
+				@include box-sizing(border-box);
+				@include justify-content(space-between);
+				padding:0 0.25rem;
+				li{
+					width:0.5rem;
+					height:0.5rem;
+					img{
+						width:100%;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+<header>
+	<i action-type="details.back">&#xf0292;</i>
+	<span>攻略详情</span>
+</header>
+<section id="details" spa-widget="scroll">
+	<div>
+		<div class="product">
+			<img src="/project-present/images/img/index-scroll1.jpg"/>
+		</div>
+		<div  class="details-container">
+			<p>
+			文艺作为陶冶人的人格及其个生态的载体，是人心灵的养分，不应是一种标签，而是一种取向。无论是玻璃、真皮、原木等种种材质，都有自己独特的秉性和气质，若要选出个文艺大片来，非「原木」莫属了，天然朴素的本质，尊崇事物本身的秉性，加上手工慢作，返璞归真，不忘初心~
+			</p>
+			<h3>
+				<span>1</span>
+				<i>香樟木香包</i>
+			</h3>
+			<p>趣味的椭圆形蛋形设计刻上萌宠随性的表情，一圈圈清晰的纹理充满人文气息，天然的香樟木防虫防蛀，防潮防霉，无添加同时能净化空气~</p>
+			<p><img src="/project-present/images/img/details1.jpg"/></p>
+			<p><img src="/project-present/images/img/details2.jpg"/></p>
+			<h2>
+				<i>价格：49元</i>
+				<span>查看详情</span>
+			</h2>
+		</div>
+		
+	</div>
+</section>
+<footer id="detail-footer">
+	<ul>
+		<li>
+			<b>&#xe62f;</b>
+			<i>1150</i>
+		</li>
+		<li>
+			<b>&#xe621;</b>
+			<i>1150</i>
+		</li>
+		<li>
+			<b>&#xe60a;</b>
+			<i>1150</i>
+		</li>
+	</ul>
+</footer>
